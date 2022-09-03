@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ProfileService {
-  apiUrl = 'http://localhost/foodmangalo/public/api';
+  apiUrl = 'https://foodmangalo.herokuapp.com/api';
 
   constructor(private http: HttpClient) {}
 
